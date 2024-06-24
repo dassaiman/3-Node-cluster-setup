@@ -85,4 +85,8 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 After successful completion of `kubeadm init` command, like we got the `kubeadm join` command, we would also get details about how we can set up `kubeconfig` file.
 
 
+--exec-opt native.cgroupdriver=systemd
+use this one inside the docker.service file to run kubectl helthy.
+
+
 
